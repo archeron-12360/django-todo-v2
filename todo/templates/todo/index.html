@@ -2,9 +2,9 @@
 
 {% block content %}
 <div class="container" style="text-align: center; margin-top: 30px;">
-	<h1 class="display-4">TODOリスト</h1>
-	<a class="btn btn-primary btn-lg" href="{% url 'login' %}" role="button">ログイン</a>
-	<a class="btn btn-primary btn-lg" href="{% url 'todo:signup' %}" role="button">新規登録</a>
+	<h1 class="display-4">みんなのTODOリスト</h1>
+	<a class="btn btn-primary btn-lg login" href="{% url 'login' %}" role="button">ログイン</a>
+	<a class="btn btn-primary btn-lg signup" href="{% url 'todo:signup' %}" role="button">新規登録</a>
 </div>
 </main>
 {% endblock %}
