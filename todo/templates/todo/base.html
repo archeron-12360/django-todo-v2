@@ -31,6 +31,10 @@
 					</li>
 
 					<li class="nav-item">
+						<a class="nav-link" href="{% url 'todo:lists_list' %}">リスト一覧</a>
+					</li>
+
+					<li class="nav-item">
 						<a class="nav-link" href="{% url 'logout' %}">ログアウト</a>
 					</li>
 					{% else %}
@@ -38,7 +42,7 @@
 						<a class="nav-link" href="{% url 'login' %}">ログイン</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="{% url 'todo:signup' %}">サインアップ</a>
+						<a class="nav-link" href="{% url 'todo:signup' %}">新規登録</a>
 					</li>
 					{% endif %}
 				</ul>
